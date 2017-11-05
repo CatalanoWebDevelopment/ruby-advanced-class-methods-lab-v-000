@@ -53,7 +53,7 @@ class Song
   end
 
   def self.new_from_filename(string)
-    trimmed = string.delete(/\.mp3/)
+    trimmed = string.delete!(/\.mp3/)
     binding.pry
     string[0]
     # string.each do |set|
