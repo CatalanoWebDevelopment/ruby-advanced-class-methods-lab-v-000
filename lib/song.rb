@@ -54,14 +54,12 @@ class Song
 
   def self.new_from_filename(string)
     string = string.split("-")
-    string.each do |set|
-      binding.pry
-
-      set = set.split
-
-      string.artist_name = set[0]
-      song.name = set[1]
-    end
+    binding.pry
+    # string.each do |set|
+    #   set = set.split
+    #   string.artist_name = set[0]
+    #   song.name = set[1]
+    # end
   end
 
 end
