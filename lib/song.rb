@@ -59,6 +59,7 @@ class Song
 
   def self.create_from_filename(string)
     song = self.new
+    @@all << song
   end
 
   def self.destroy_all
