@@ -56,11 +56,7 @@ class Song
     trimmed = string.sub(/\.mp3/, "")
     trimmed_array = trimmed.split("-")
     
-    # string.each do |set|
-    #   set = set.split
-    #   string.artist_name = set[0]
-    #   song.name = set[1]
-    # end
+      
   end
 
 end
