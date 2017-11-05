@@ -58,6 +58,7 @@ class Song
     trimmed_array = trimmed.split("-")
     song.name = trimmed_array[1].strip
     song.artist_name = trimmed_array[0].strip
+    song
   end
 
 end
