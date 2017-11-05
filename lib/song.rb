@@ -53,7 +53,7 @@ class Song
   end
 
   def self.new_from_filename(string)
-    string.tr('mp3')
+    string.tr('mp3', '')
     binding.pry
     string[0]
     # string.each do |set|
