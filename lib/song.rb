@@ -55,6 +55,7 @@ class Song
   def self.new_from_filename(string)
     trimmed = string.sub(/\.mp3/, "")
     trimmed_array = trimmed.split("-")
+    binding.pry
     string[0]
     # string.each do |set|
     #   set = set.split
