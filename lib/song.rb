@@ -60,6 +60,11 @@ class Song
   def self.create_from_filename(string)
     song = self.new
     @@all << song
+    trimmed = string.sub(/\.mp3/, "")
+    trimmed_array = trimmed.split("-")
+    song.name = trimmed_array[1].strip
+    song.artist_name = trimmed_array[0].strip
+    
   end
 
   def self.destroy_all
