@@ -52,13 +52,6 @@ class Song
     self.all.clear
   end
 
-  def self.new_from_filename(string)
-    song = self.new
-    trimmed = string.sub(/\.mp3/, "")
-    trimmed_array = trimmed.split("-")
-    song.name = trimmed_array[1].strip
-    song.artist_name = trimmed_array[0].strip
-    song
-  end
+  
 
 end
