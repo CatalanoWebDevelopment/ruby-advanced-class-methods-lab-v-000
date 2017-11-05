@@ -55,7 +55,7 @@ class Song
   def self.new_from_filename(string)
     trimmed = string.sub(/\.mp3/, "")
     trimmed_array = trimmed.split("-")
-    trimmed_array.strip
+    trimmed_array[0].strip
 
 
   end
