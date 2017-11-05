@@ -55,8 +55,9 @@ class Song
   def self.new_from_filename(string)
     string = string.split("-")
     string.each do |set|
-      set = set.split
       binding.pry
+
+      set = set.split
 
       string.artist_name = set[0]
       song.name = set[1]
