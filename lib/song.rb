@@ -54,6 +54,7 @@ class Song
 
   def self.new_from_filename(string)
     string = string.split("-").strip(/mp3/)
+    binding.pry
     string[0]
     # string.each do |set|
     #   set = set.split
