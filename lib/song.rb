@@ -57,7 +57,7 @@ class Song
     trimmed_array = trimmed.split("-")
     trimmed_array.strip
 
-      
+
   end
 
 end
