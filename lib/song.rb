@@ -53,8 +53,8 @@ class Song
   end
 
   def self.new_from_filename(string)
-    string = string.split("-")
-    binding.pry
+    string = string.split("-").strip(/mp3/)
+    string[0]
     # string.each do |set|
     #   set = set.split
     #   string.artist_name = set[0]
