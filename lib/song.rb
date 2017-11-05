@@ -56,7 +56,8 @@ class Song
     string = string.split("-")
     string.each do |set|
       set = set.split
-      binding.pry
+      set[0] = song.name
+      set[1] = song.artist_name
     end
   end
 
