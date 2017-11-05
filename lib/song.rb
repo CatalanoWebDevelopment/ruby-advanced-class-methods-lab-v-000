@@ -56,6 +56,7 @@ class Song
     string = string.split("-")
     string.each do |set|
       set = set.split
+      binding.pry
     end
   end
 
